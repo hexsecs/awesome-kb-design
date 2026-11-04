@@ -1,0 +1,32 @@
+{
+  "openshelf": "1.7",
+  "id": "awesome-kb-design",
+  "uid": "01a1a887-61fa-7242-84f2-f90c2fd38298",
+  "title": "Design systems (Awesome KB)",
+  "description": "Design system references collected in VoltAgent/awesome-design-md. One source-attributed stub per listed entry.",
+  "profile": "awesome",
+  "version": "2026.11.04",
+  "license": "MIT",
+  "maintainers": [
+    "hexsecs"
+  ],
+  "tags": [
+    "awesome",
+    "design",
+    "curated-list"
+  ],
+  "layout": {
+    "pages": "wiki",
+    "index": "index.md",
+    "sources": "raw",
+    "schema": "AGENTS.md",
+    "log": "log.md",
+    "checksums": "raw/MANIFEST.sha256"
+  },
+  "x-ingest": {
+    "source": "github:VoltAgent/awesome-design-md",
+    "file": "README.md",
+    "tool": "tools/ingest.py",
+    "source_commit": "fcc70284932276d085f01ef9f83edde90b1258cb"
+  }
+}
