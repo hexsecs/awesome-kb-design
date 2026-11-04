@@ -7,6 +7,8 @@ import ingest
 
 def digest(root):return {str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in root.rglob('*') if p.is_file() and '__pycache__' not in str(p)}
 def main():
+ from render_readme import render_readme
+ render_readme(ROOT, check=True)
  entries=ingest.parse_list(ROOT/'raw/2026-11-04/README.md'); pages={}; ids=set()
  for p in (ROOT/'wiki').glob('*.md'):
   f,b=ingest.split(p.read_text())
@@ -36,3 +38,4 @@ def main():
   cmd=[sys.executable,str(work/'tools/ingest.py'),'--date','2026-11-04'];before=digest(work);subprocess.run(cmd,check=True);assert before==digest(work),'ingest is not idempotent'
  print(f'PASS: {len(entries)} entries, UUIDs, source coverage, status/depth, links, checksums, idempotent ingest')
 if __name__=='__main__':main()
+
