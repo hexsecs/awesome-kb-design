@@ -1,0 +1,26 @@
+---
+uid: 01a1a885-135a-7254-a458-08b98c7092a3
+title: "Replicate"
+summary: "Run ML models via API. Clean white canvas, code-forward"
+type: entity
+category: "AI & LLM Platforms"
+url: "https://getdesign.md/replicate/design-md"
+status: unknown
+created: 2026-11-04
+updated: 2026-11-04
+depth: stub
+source_list: VoltAgent-awesome-design-md
+source_commit: fcc70284932276d085f01ef9f83edde90b1258cb
+list_summary: "Run ML models via API. Clean white canvas, code-forward"
+source_key: "[\"AI & LLM Platforms\",\"Replicate\",\"https://getdesign.md/replicate/design-md\"]"
+sources:
+  - path: "raw/2026-11-04/README.md"
+  - path: "raw/2026-11-04/LICENSE"
+  - path: "raw/2026-11-04/capture.json"
+---
+
+Run ML models via API. Clean white canvas, code-forward
+
+- **Resource:** https://getdesign.md/replicate/design-md
+- **List category:** AI & LLM Platforms
+- **Source:** [VoltAgent-awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — generated stub (`depth: stub`); source list is canon.
